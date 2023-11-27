@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="index.js"></script>
+    <title>Weather Report</title>
+    <style>
+        .temp{
+            font-size: 72px;
+        }
+        .bold{
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <h1>Weather Report</h1>
+    <button id="fetchWeather">Fetch Weather Report</button>
+    <br>
+    <h1> <span id="temperature" class="temp">--</span> <span class="temp"> <sup>o</sup></span>  </h1>
+    <table>
+        <table>
+            <tr>
+                <td class=" bold"></b> Condition:</td>
+                <td id="condition">--</td>
+            </tr>
+            <tr>
+                <td class=" bold">Location:</td>
+                <td id="location">--</td>
+            </tr>
+            <tr>
+                <td class=" bold">City:</td>
+                <td id="city">--</td>
+            </tr>
+            <tr>
+                <td class=" bold">Country:</td>
+                <td id="country">--</td>
+            </tr>
+            <tr>
+                <td class=" bold">Pressure:</td>
+                <td id="pressure">--</td>
+            </tr>
+            <tr>
+                <td class=" bold">Humidity:</td>
+                <td id="humidity">--</td>
+            </tr>
+            <tr>
+                <td class=" bold">Sunrise:</td>
+                <td id="sunrise">--</td>
+            </tr>
+            <tr>
+                <td class=" bold">Sunset:</td>
+                <td id="sunset">--</td>
+            </tr>
+        </table>
+
+        <br>
+        <td class="bold">Ai Risk Analysis:</td>
+        <br>
+        <code id="gpt">
+        </code>
+        
+    </table>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+</body>
+</html>
